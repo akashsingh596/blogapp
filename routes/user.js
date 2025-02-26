@@ -31,6 +31,7 @@ router.post("/signup", async (req, res) => {
     password,
   });
   return res.redirect("/");
+  
 });
 
 module.exports = router;
